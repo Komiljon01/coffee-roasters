@@ -1,0 +1,106 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Initial Styles */
+:root {
+  /* Colors */
+  --dark-cyan-color: #0e8784;
+  --dark-grey-blue-color: #333d4b;
+  --pale-orange-color: #fdd6ba;
+  --light-cream-color: #fefcf7;
+  --grey-color: #83888f;
+
+  /* Font Families */
+  --barlow-font-family: "Barlow", sans-serif;
+  --fraunces-font-family: "Fraunces", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--barlow-font-family);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--dark-grey-blue-color);
+  font-family: var(--fraunces-font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 72px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn {
+  width: 100%;
+  max-width: 217px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--dark-cyan-color);
+  color: var(--light-cream-color);
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 6px;
+  padding: 15px 31px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #66d2cf;
+}
+
+.btn:disabled {
+  background-color: var(--light-cream-color);
+}
+
+.btn:focus {
+  outline: 2px dotted var(--dark-cyan-color);
+  outline-offset: 2px;
+}
