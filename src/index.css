@@ -24,6 +24,7 @@
 
 body {
   font-family: var(--barlow-font-family);
+  min-height: 100vh;
 }
 
 h1,
@@ -103,4 +104,19 @@ p {
 .btn:focus {
   outline: 2px dotted var(--dark-cyan-color);
   outline-offset: 2px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

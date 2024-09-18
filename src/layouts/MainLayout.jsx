@@ -7,7 +7,7 @@ import Footer from "../components/footer/Footer";
 
 function MainLayout() {
   return (
-    <div className="container">
+    <>
       {/* Navbar */}
       <Navbar />
 
@@ -17,7 +17,7 @@ function MainLayout() {
 
       {/* Footer */}
       <Footer />
-    </div>
+    </>
   );
 }
 
