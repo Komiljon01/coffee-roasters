@@ -16,9 +16,15 @@
   --fraunces-font-family: "Fraunces", serif;
 
   /* Images */
+  /* HOME HEADER */
   --home-header-bg-img: url("../assets/home/desktop/image-hero-coffeepress.jpg");
   --home-header-bg-img-tablet: url("../assets/home/tablet/image-hero-coffeepress.jpg");
   --home-header-bg-img-mobile: url("../assets/home/mobile/image-hero-coffeepress.jpg");
+
+  /* HOME COLLECTIONS */
+  --home-collections-bg-img: url("../assets/home/desktop/collections-bg.png");
+  --home-collections-bg-img-tablet: url("../assets/home/tablet/collections-bg.png");
+  --home-collections-bg-img-mobile: url("../assets/home/mobile/collections-bg.png");
 }
 
 * {
