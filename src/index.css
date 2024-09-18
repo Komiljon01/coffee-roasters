@@ -14,6 +14,11 @@
   /* Font Families */
   --barlow-font-family: "Barlow", sans-serif;
   --fraunces-font-family: "Fraunces", serif;
+
+  /* Images */
+  --home-header-bg-img: url("../assets/home/desktop/image-hero-coffeepress.jpg");
+  --home-header-bg-img-tablet: url("../assets/home/tablet/image-hero-coffeepress.jpg");
+  --home-header-bg-img-mobile: url("../assets/home/mobile/image-hero-coffeepress.jpg");
 }
 
 * {
@@ -53,6 +58,11 @@ ul {
   padding-right: 80px;
 }
 
+.container-inside {
+  padding-right: 85px;
+  padding-left: 85px;
+}
+
 h1 {
   font-size: 72px;
   line-height: 72px;
@@ -90,6 +100,7 @@ p {
   line-height: 25px;
   border-radius: 6px;
   padding: 15px 31px;
+  text-align: center;
   transition: all 0.3s ease;
 }
 
@@ -112,11 +123,54 @@ p {
     padding-left: 39px;
     padding-right: 39px;
   }
+
+  .container-inside {
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container-inside {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .container {
     padding-left: 24px;
     padding-right: 24px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  h1 {
+    font-size: 30px;
+    line-height: 35px;
   }
 }
