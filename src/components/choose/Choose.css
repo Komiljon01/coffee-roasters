@@ -1,0 +1,164 @@
+.choose {
+  position: relative;
+  margin-top: 200px;
+  height: 100%;
+}
+
+.choose-content {
+  position: relative;
+  padding-top: 100px;
+  height: 577px;
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.choose-content-title,
+.choose-content-text {
+  max-width: 540px;
+  color: var(--light-cream-color);
+  margin: 0 auto;
+}
+
+.choose-content-text {
+  margin-top: 32px;
+}
+
+.choose-cards {
+  position: relative;
+  height: 400px;
+  bottom: 251px;
+  right: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+
+.choose-card {
+  background-color: var(--dark-cyan-color);
+  border-radius: 8px;
+  padding: 48px;
+  text-align: center;
+}
+
+.choose-card img {
+  width: 72px;
+  object-fit: cover;
+}
+
+.choose-card-title {
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+.choose-card-title,
+.choose-card-text {
+  color: var(--light-cream-color);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1100px) {
+  .choose-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .choose-card {
+    padding: 35px 15px;
+  }
+
+  .choose-card:nth-child(3) {
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choose {
+    margin-top: 144px;
+  }
+
+  .choose-content {
+    height: 573px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .choose-cards {
+    bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .choose-card {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+  }
+
+  .choose-card img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .choose-card-title {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .choose-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .choose-cards {
+    bottom: -100px;
+  }
+
+  .choose-card {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .choose-content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .choose-cards {
+    bottom: -200px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .choose-cards {
+    bottom: -290px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .choose {
+    margin-top: 120px;
+  }
+
+  .choose-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .choose-card {
+    padding: 60px 12px;
+  }
+
+  .choose-card-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

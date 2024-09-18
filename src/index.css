@@ -10,6 +10,7 @@
   --pale-orange-color: #fdd6ba;
   --light-cream-color: #fefcf7;
   --grey-color: #83888f;
+  --dark-blue: #2c343e;
 
   /* Font Families */
   --barlow-font-family: "Barlow", sans-serif;
@@ -36,6 +37,7 @@
 body {
   font-family: var(--barlow-font-family);
   min-height: 100vh;
+  background-color: var(--light-cream-color);
 }
 
 h1,

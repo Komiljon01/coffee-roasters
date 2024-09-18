@@ -1,5 +1,7 @@
-// CSS
+// Data
 import { collectionsData } from "../../data";
+
+// CSS
 import "./Collections.css";
 
 function Collections() {
