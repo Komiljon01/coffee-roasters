@@ -26,6 +26,9 @@
   --home-collections-bg-img: url("../assets/home/desktop/collections-bg.png");
   --home-collections-bg-img-tablet: url("../assets/home/tablet/collections-bg.png");
   --home-collections-bg-img-mobile: url("../assets/home/mobile/collections-bg.png");
+
+  /* FOOTER */
+  --footer-logo-img: url("..assets/home/desktop/footer-logo.png");
 }
 
 * {

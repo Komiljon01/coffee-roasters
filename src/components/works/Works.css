@@ -9,6 +9,7 @@
 .works-cards {
   margin-top: 80px;
   padding-top: 98px;
+  margin-bottom: 64px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -81,11 +82,20 @@
   .works-card::after {
     display: none;
   }
+
+  .works-btn {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .works-intro {
     text-align: center;
+  }
+
+  .works-cards {
+    margin-bottom: 44px;
   }
 
   .works-card-number {

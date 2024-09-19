@@ -1,3 +1,6 @@
+// rrd
+import { Link } from "react-router-dom";
+
 // Works data
 import { homeHowWorksData } from "../../data";
 
@@ -19,6 +22,8 @@ function Works() {
             </div>
           ))}
         </div>
+
+        <Link to="plan" className="btn works-btn">Create your plan</Link>
       </div>
     </section>
   );
