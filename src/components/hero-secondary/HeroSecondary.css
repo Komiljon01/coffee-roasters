@@ -1,0 +1,10 @@
+.heroSecondary {
+  margin-top: 43.44px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 375px) {
+  .heroSecondary {
+    margin-top: 40px;
+  }
+}
