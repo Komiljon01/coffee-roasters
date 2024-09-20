@@ -71,3 +71,34 @@ export const homeHowWorksData = [
     text: "We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.",
   },
 ];
+
+// Headquarters
+export const headquartersData = [
+  {
+    id: uuid4(),
+    image: "../assets/about/desktop/illustration-uk.svg",
+    title: "United Kingdom",
+    text1: "68  Asfordby Rd",
+    text2: "Alcaston",
+    text3: "SY6 1YA",
+    number: "+44 1241 918425",
+  },
+  {
+    id: uuid4(),
+    image: "../assets/about/desktop/illustration-canada.svg",
+    title: "Canada",
+    text1: "1528  Eglinton Avenue",
+    text2: "Toronto",
+    text3: "Ontario M4P 1A6",
+    number: "+1 416 485 2997",
+  },
+  {
+    id: uuid4(),
+    image: "../assets/about/desktop/illustration-australia.svg",
+    title: "Australia",
+    text1: "36 Swanston Street",
+    text2: "Kewell",
+    text3: "Victoria",
+    number: "+61 4 9928 3629",
+  },
+];
