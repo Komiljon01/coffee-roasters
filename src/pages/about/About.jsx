@@ -1,6 +1,7 @@
 // Components
 import Commitment from "../../components/commitment/Commitment";
 import HeroSecondary from "../../components/hero-secondary/HeroSecondary";
+import Uncompromising from "../../components/uncompromising/Uncompromising";
 
 // CSS
 import "./About.css";
@@ -22,6 +23,7 @@ function About() {
         </div>
       </HeroSecondary>
       <Commitment />
+      <Uncompromising />
     </>
   );
 }
