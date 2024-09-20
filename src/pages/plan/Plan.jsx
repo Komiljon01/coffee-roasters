@@ -1,4 +1,8 @@
+// Components
 import HeroSecondary from "../../components/hero-secondary/HeroSecondary";
+import Guide from "../../components/guide/Guide";
+
+// CSS
 import "./Plan.css";
 
 function Plan() {
@@ -16,6 +20,7 @@ function Plan() {
           </div>
         </div>
       </HeroSecondary>
+      <Guide />
     </>
   );
 }
